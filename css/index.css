@@ -1,0 +1,75 @@
+html {
+    font-size: 16px;
+}
+
+#logo {
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 70px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(84, 58, 139);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.buttonnavegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#cadastro {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(77, 67, 152);
+    border-radius: 12px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+}
+
+#contato {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(77, 67, 152);
+    border-radius: 12px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+#cadastro:hover {
+    opacity: .85;
+
+}
+
+#contato:hover {
+    opacity: .85;
+
+}
+main {
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(77, 67, 152);
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
